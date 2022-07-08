@@ -1,0 +1,124 @@
+.container {
+    height: 450px;
+    width: 375px;
+    right: -18%;
+    position: relative;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.dark-mode .container {
+    height: 450px;
+    width: 375px;
+    right: -18%;
+    position: relative;
+    background: gray;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(255, 255, 255);
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.todo-form {
+    margin: 20px 0px;
+}
+
+.todo-input {
+    width: 250px;
+    border: solid;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: gray;
+    border-color: black;
+}
+
+.todo-input::placeholder {
+    color: #222;
+}
+
+.dark-mode .todo-input {
+    width: 250px;
+    border: solid;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+    border-color: yellow;
+}
+
+.dark-mode .todo-input::placeholder {
+    color: #222;
+}
+
+.add-button {
+    background-color: #0000ff;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 1.2rem;
+}
+
+.todo-items {
+    min-width: 340px;
+}
+
+.item {
+    background-color: gray;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.dark-mode .item {
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.item:first-child {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.item:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.delete-button {
+    float: right;
+    background-color: #dc143c;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 2px 5px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+
+.checked {
+    text-decoration: line-through;
+    background-color: yellowgreen;
+}
+
+.dark-mode .checked {
+    text-decoration: line-through;
+    background-color: yellowgreen;
+}
